@@ -1,5 +1,5 @@
 {
-	"name": "task-tracker",
+	"name": "task-tracker-cli",
 	"module": "src/index.ts",
 	"type": "module",
 	"scripts": {
