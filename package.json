@@ -3,9 +3,13 @@
   "module": "src/index.ts",
   "type": "module",
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@types/bun": "1.1.17"
   },
   "peerDependencies": {
     "typescript": "5.0.0"
-  }
+  },
+  "trustedDependencies": [
+    "@biomejs/biome"
+  ]
 }
