@@ -1,17 +1,17 @@
 {
-  "name": "task-tracker",
-  "module": "src/index.ts",
-  "type": "module",
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@types/bun": "1.1.17",
-    "lefthook": "1.10.9"
-  },
-  "peerDependencies": {
-    "typescript": "5.0.0"
-  },
-  "trustedDependencies": [
-    "@biomejs/biome",
-    "lefthook"
-  ]
+	"name": "task-tracker",
+	"module": "src/index.ts",
+	"type": "module",
+	"scripts": {
+		"biome:check": "biome check --write"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/bun": "1.1.17",
+		"lefthook": "1.10.9"
+	},
+	"peerDependencies": {
+		"typescript": "5.0.0"
+	},
+	"trustedDependencies": ["@biomejs/biome", "lefthook"]
 }
