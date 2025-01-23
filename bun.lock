@@ -6,6 +6,7 @@
       "devDependencies": {
         "@biomejs/biome": "1.9.4",
         "@types/bun": "1.1.17",
+        "commander": "13.1.0",
         "lefthook": "1.10.9",
       },
       "peerDependencies": {
@@ -43,6 +44,8 @@
     "@types/ws": ["@types/ws@8.5.13", "", { "dependencies": { "@types/node": "*" } }, "sha512-osM/gWBTPKgHV8XkTunnegTRIsvF6owmf5w+JtAfOw472dptdm0dlGv4xCt6GwQRcC2XVOvvRE/0bAoQcL2QkA=="],
 
     "bun-types": ["bun-types@1.1.44", "", { "dependencies": { "@types/node": "~20.12.8", "@types/ws": "~8.5.10" } }, "sha512-jtcekoZeSINgEcHSISzhR13w/cyE+Fankw2Cpl4c0fN3lRmKVAX0i9ay4FyK4lOxUK1HG4HkuIlrPvXKz4Y7sw=="],
+
+    "commander": ["commander@13.1.0", "", {}, "sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw=="],
 
     "lefthook": ["lefthook@1.10.9", "", { "optionalDependencies": { "lefthook-darwin-arm64": "1.10.9", "lefthook-darwin-x64": "1.10.9", "lefthook-freebsd-arm64": "1.10.9", "lefthook-freebsd-x64": "1.10.9", "lefthook-linux-arm64": "1.10.9", "lefthook-linux-x64": "1.10.9", "lefthook-openbsd-arm64": "1.10.9", "lefthook-openbsd-x64": "1.10.9", "lefthook-windows-arm64": "1.10.9", "lefthook-windows-x64": "1.10.9" }, "bin": { "lefthook": "bin/index.js" } }, "sha512-UNgvdOMxINultvtDQ0XgqMomMIeI2dyJM5hgOaqpC47SJvVPOy1Mk5i7QnFtfDK/bdB2pKaA61KxrIx6rCmL/w=="],
 
