@@ -2,6 +2,7 @@
 	"name": "task-tracker-cli",
 	"module": "src/index.ts",
 	"type": "module",
+	"version": "0.0.1",
 	"scripts": {
 		"biome:check": "biome check --write"
 	},
